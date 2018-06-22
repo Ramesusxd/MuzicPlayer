@@ -13,55 +13,40 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the content of the activity to use the activity_main.xml layout file
+
         setContentView(R.layout.activity_main);
-
-        // Find the View that shows the numbers category
         TextView title = (TextView) findViewById(R.id.title);
-
-        // Set a click listener on that View
         title.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
-                Intent titleIntent = new Intent(MainActivity.this, TitleActivity.class);
 
-                // Start the new activity
+                Intent titleIntent = new Intent(MainActivity.this, TitleActivity.class);
                 startActivity(titleIntent);
             }
         });
 
 
-        // Find the View that shows the family category
-        TextView type = (TextView) findViewById(R.id.type);
 
-        // Set a click listener on that View
+        TextView type = (TextView) findViewById(R.id.type);
         type.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the family category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link FamilyActivity}
                 Intent genreIntent = new Intent(MainActivity.this, GenreActivity.class);
-
-                // Start the new activity
                 startActivity(genreIntent);
             }
         });
 
 
-        // Find the View that shows the family category
-        TextView artist = (TextView) findViewById(R.id.artist);
 
-        // Set a click listener on that View
+        TextView artist = (TextView) findViewById(R.id.artist);
         artist.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the family category is clicked on.
+
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link FamilyActivity}
-                Intent artistIntent = new Intent(MainActivity.this, ArtistActivity.class);
 
-                // Start the new activity
+                Intent artistIntent = new Intent(MainActivity.this, ArtistActivity.class);
                 startActivity(artistIntent);
             }
         });
