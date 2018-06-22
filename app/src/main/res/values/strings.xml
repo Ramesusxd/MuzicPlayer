@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Muzic Player</string>
+    <string name="title">Search by Title</string>
+    <string name="type">Search by Genre</string>
+    <string name="artist">Search by Artist</string>
+    <string name="royaltyfree">Royalty free image</string>
+</resources>
