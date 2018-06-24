@@ -10,10 +10,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class WordAdapter extends ArrayAdapter<Word>  {
+public class WordAdapter extends ArrayAdapter<Song>  {
 
 
-    public WordAdapter(Context context, ArrayList<Word> words) {
+    public WordAdapter(Context context, ArrayList<Song> words) {
         super(context, 0, words);
     }
 
@@ -27,7 +27,7 @@ public class WordAdapter extends ArrayAdapter<Word>  {
         }
 
 
-        Word currentWord = getItem(position);
+        Song currentWord = getItem(position);
 
         TextView titleTextView = (TextView) listItemView.findViewById(R.id.title_text_view);
         titleTextView.setText(currentWord.getTitle());

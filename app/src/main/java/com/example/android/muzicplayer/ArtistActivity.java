@@ -14,17 +14,17 @@ public class ArtistActivity extends AppCompatActivity {
         setContentView(R.layout.activity_artist);
 
 
-        ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("My love", "Jason", "R&B"));
-        words.add(new Word("Dance with me", "Jason", "R&B"));
-        words.add(new Word("Lifes good", "Mike", "Rap"));
-        words.add(new Word("At the party", "Mike", "Rap"));
-        words.add(new Word("Sound mix", "Robert", "EDM"));
-        words.add(new Word("Happy tech", "Robert", "EDM"));
-        words.add(new Word("The world in 4D", "Robert", "EDM"));
-        words.add(new Word("Down the system", "Shelly", "Rock"));
-        words.add(new Word("Summer cool", "Steve", "Jazz"));
-        words.add(new Word("Layed back", "Steve", "Jazz"));
+        ArrayList<Song> words = new ArrayList<Song>();
+        words.add(new Song("My love", "Jason", "R&B"));
+        words.add(new Song("Dance with me", "Jason", "R&B"));
+        words.add(new Song("Lifes good", "Mike", "Rap"));
+        words.add(new Song("At the party", "Mike", "Rap"));
+        words.add(new Song("Sound mix", "Robert", "EDM"));
+        words.add(new Song("Happy tech", "Robert", "EDM"));
+        words.add(new Song("The world in 4D", "Robert", "EDM"));
+        words.add(new Song("Down the system", "Shelly", "Rock"));
+        words.add(new Song("Summer cool", "Steve", "Jazz"));
+        words.add(new Song("Layed back", "Steve", "Jazz"));
 
 
 

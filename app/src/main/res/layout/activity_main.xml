@@ -1,53 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
-
     <TextView
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/title"
-        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/titlepayne"
+        android:padding="50dp"
         android:text="@string/title"
-        android:textSize="25sp"
         android:textColor="#ffffff"
+        android:textSize="25sp"
 
         />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/type"
-        android:padding="50dp"
-        android:background="@color/genrepayne"
-        android:text="@string/type"
-        android:textSize="25sp"
-        android:textColor="#ffffff"
-        />
-
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/artist"
+        android:background="@color/genrepayne"
         android:padding="50dp"
-        android:background="@color/artistpayne"
-        android:text="@string/artist"
-        android:textSize="25sp"
+        android:text="@string/type"
         android:textColor="#ffffff"
-        />
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/artistpayne"
+        android:padding="50dp"
+        android:text="@string/artist"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
 
     <ImageView
-        android:contentDescription="@string/royaltyfree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/royaltyfree"
         android:scaleType="centerCrop"
-        android:src="@drawable/party1"/>
+        android:src="@drawable/party1" />
 
 </LinearLayout>
