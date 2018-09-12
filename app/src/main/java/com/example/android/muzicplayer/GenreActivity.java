@@ -15,19 +15,13 @@ public class GenreActivity extends AppCompatActivity {
 
 
         ArrayList<Song> words = new ArrayList<Song>();
-        words.add(new Song("Happy tech", "Robert", "EDM"));
-        words.add(new Song("Sound mix", "Robert", "EDM"));
-        words.add(new Song("The world in 4D", "Robert", "EDM"));
-        words.add(new Song("Layed back", "Steve", "Jazz"));
-        words.add(new Song("Summer cool", "Steve", "Jazz"));
-        words.add(new Song("Dance with me", "Jason", "R&B"));
-        words.add(new Song("My love", "Jason", "R&B"));
-        words.add(new Song("At the party", "Mike", "Rap"));
-        words.add(new Song("Lifes good", "Mike", "Rap"));
-        words.add(new Song("Down the system", "Shelly", "Rock"));
+        words.add(new Song("Rich Friend", "Stockton,CA", "8:00 PM"));
+        words.add(new Song("Rich Friend", "Cleveland, OH", "7:00 PM"));
+        words.add(new Song("Rich Friend", "Las Vegas, NV", "9:00 PM"));
 
 
-        WordAdapter adapter = new WordAdapter(this, words);
+
+        WordAdapter2 adapter = new WordAdapter2(this, words);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }

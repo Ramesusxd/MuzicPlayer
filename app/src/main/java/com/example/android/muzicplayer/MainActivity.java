@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent titleIntent = new Intent(MainActivity.this, TitleActivity.class);
+                Intent titleIntent = new Intent(MainActivity.this, DirectoryHomeActivity.class);
                 startActivity(titleIntent);
             }
         });

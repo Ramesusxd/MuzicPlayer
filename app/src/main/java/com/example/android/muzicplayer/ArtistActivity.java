@@ -15,16 +15,16 @@ public class ArtistActivity extends AppCompatActivity {
 
 
         ArrayList<Song> words = new ArrayList<Song>();
-        words.add(new Song("My love", "Jason", "R&B"));
-        words.add(new Song("Dance with me", "Jason", "R&B"));
-        words.add(new Song("Lifes good", "Mike", "Rap"));
-        words.add(new Song("At the party", "Mike", "Rap"));
-        words.add(new Song("Sound mix", "Robert", "EDM"));
-        words.add(new Song("Happy tech", "Robert", "EDM"));
-        words.add(new Song("The world in 4D", "Robert", "EDM"));
-        words.add(new Song("Down the system", "Shelly", "Rock"));
-        words.add(new Song("Summer cool", "Steve", "Jazz"));
-        words.add(new Song("Layed back", "Steve", "Jazz"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
+        words.add(new Song("Song here", "Rich Friend", "Rap"));
 
 
 
